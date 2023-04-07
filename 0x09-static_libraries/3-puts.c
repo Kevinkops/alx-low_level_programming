@@ -1,15 +1,12 @@
 #include "main.h"
 
 /**
- * _islower - checks if a character is lowercase
- * @c: the character to check
+ * main - Entry point
  *
- * Return: 1 if c is lowercase, 0 otherwise
+ * Return: Always 0 (Success)
  */
-int _islower(int c)
+int main(void)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-
+	_puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }

@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
+ * _putchar - Writes the character c to stdout
  * @c: The character to print
  *
  * Return: On success 1.
@@ -9,13 +9,5 @@
  */
 int _putchar(char c)
 {
-	int status;
-
-	status = write(1, &c, 1);
-	if (status == -1)
-	{
-		return (-1);
-	}
-
-	return (1);
+	return (write(1, &c, 1));
 }
